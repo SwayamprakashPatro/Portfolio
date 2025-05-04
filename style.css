@@ -316,7 +316,7 @@
             transition: background 0.3s ease;
         }
 
-        /* PROJECT CARDS */
+   
         section#projects .grid-card {
             padding: 2rem;
             position: relative;
@@ -348,7 +348,7 @@
             text-align: center;
         }
 
-        /* CONTACT SECTION */
+
         .contact {
             min-height: auto;
             padding: 2rem 12%;
@@ -405,7 +405,7 @@
             transition: color 0.3s ease;
         }
 
-        /* FOOTER */
+
         footer {
             max-width: 1200px;
             width: 90%;
@@ -459,12 +459,12 @@
             transition: color 0.3s ease;
         }
 
-        /* Typing effect styles */
+
         #typing-text {
             position: relative;
             display: inline-block;
             font-size: 2rem;
-            min-height: 2.8rem; /* Prevents layout shift */
+            min-height: 2.8rem;
         }
 
         .cursor {
@@ -482,7 +482,7 @@
             }
         }
 
-        /* ADDED: Responsive styles for mobile devices */
+   
         @media (max-width: 768px) {
             /* Header */
             header {
@@ -541,7 +541,7 @@
                 display: none;
             }
 
-            /* General Section Adjustments */
+         
             section {
                 padding: 4rem 8%;
             }
@@ -551,7 +551,7 @@
                 margin-bottom: 2rem;
             }
 
-            /* About Section */
+      
             .about .about-container {
                 flex-direction: column;
                 gap: 2rem;
@@ -596,7 +596,6 @@
                 font-size: 2rem;
             }
 
-            /* Experience Section */
             .experience-info {
                 flex-direction: column;
                 gap: 2rem;
@@ -634,12 +633,12 @@
                 font-size: 0.9rem;
             }
 
-            /* Projects Section */
+     
             section#projects .grid-card {
                 padding: 1.5rem;
             }
 
-            /* Contact Section */
+  
             .contact {
                 min-height: auto;
                 padding: 2rem 8%;
@@ -660,7 +659,7 @@
                 font-size: 1rem;
             }
 
-            /* Footer */
+       
             footer {
                 padding: 1.5rem;
             }
