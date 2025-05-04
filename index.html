@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>Swayamprakash Patro</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button
+            class="visit-btn mobile-only"
+            onclick="window.open('https://github.com/SwayamprakashPatro', '_blank')"
+          >
+            Visit Github
+          </button>
+        </li>
+      </ul>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <button
+        class="visit-btn desktop-only"
+        onclick="window.open('https://github.com/SwayamprakashPatro', '_blank')"
+      >
+        Visit Github
+      </button>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="Pic.jpg" alt="Swayamprakash Patro" />
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Swayamprakash Patro</h1>
+            <span id="typing-text"></span>
+            <!-- This is the element we'll animate -->
+          </div>
+
+          <div id="btn-group">
+            <button class="btn" id="download-cv">Download Resume</button>
+            <button class="btn" id="contact-btn">Contact</button>
+          </div>
+
+          <div id="socials">
+            <a href="https://github.com/SwayamprakashPatro" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://in.linkedin.com/in/swayamprakashpatro"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="experience-info">
+        <div class="grid" id="experience-grid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-database"></i>
+            <span>Database Management System</span>
+            <h3>Java - Swing - JDBC - SQL</h3>
+            <p>
+              Developed in Java, efficiently manages and displays cricket player
+              statistics, such as runs and wickets. Utilizing Java Swing for an
+              intuitive user interface and MySQL for robust backend data
+              storage, it offers a dynamic, user-friendly platform for tracking
+              and analyzing player performance with seamless data handling.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://github.com/SwayamprakashPatro/Cricket-Stats-"
+                target="_blank"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-comments"></i>
+            <span>Chatting Application</span>
+            <h3>Java - Swing - Socket Programming</h3>
+            <p>
+              Built with Java Swing and socket programming, enables real-time
+              text communication between two users over a local network.
+              Featuring intuitive server and client interfaces, it provides a
+              simple, efficient platform for seamless message exchange, ensuring
+              reliable connectivity and user-friendly interaction.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://github.com/SwayamprakashPatro/Chatting-Application"
+                target="_blank"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-clipboard"></i>
+            <span>Notepad Application</span>
+            <h3>Java - Swing</h3>
+            <p>
+              Java Swing-based Notepad application enables users to create,
+              open, edit, and save text files. Equipped with essential editing
+              features like cut, copy, paste, and delete, it provides a simple,
+              user-friendly interface for efficient text management and editing,
+              ensuring seamless functionality for everyday use.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://github.com/SwayamprakashPatro/SimpleNotePad"
+                target="_blank"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-shield"></i>
+            <span>Real Time Object Detection</span>
+            <h3>Python - YOLOv11 - EfficientNetV2</h3>
+            <p>
+              The Real-Time Multi-Modal Threat Detection System, developed by
+              Aryan Hardik Dani, Swayamprakash Patro, Sobaan M. Jagirdaar, and
+              Prakhar Jaiswal at MIT World Peace University, integrates YOLOv11
+              and EfficientNetV2 with an Angular frontend for accurate,
+              low-latency threat detection in CCTV and X-ray scans, enhancing
+              traditional surveillance.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://github.com/aryan-dani/Threat_Detection_System"
+                target="_blank"
+                class="btn"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <!-- ADDED: Formspree integration -->
+      <form
+        action="https://formspree.io/f/mzzrekyq"
+        method="POST"
+        id="contact-form"
+      >
+        <div class="input-box">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="input">
+            <input
+              type="email"
+              name="email"
+              placeholder="example@gmail.com"
+              id="email-input"
+              required
+            />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <!-- ADDED: Hidden field for spam protection -->
+          <input type="text" name="_gotcha" style="display: none" />
+          <button type="submit" class="btn" id="submit-btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="#about" class="footer-link">About</a></li>
+        <li><a href="#experience" class="footer-link">Experience</a></li>
+        <li><a href="#projects" class="footer-link">Projects</a></li>
+        <li><a href="#contact" class="footer-link">Contact</a></li>
+      </ul>
+      <p class="copyright">@2025 Swayamprakash Patro. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
