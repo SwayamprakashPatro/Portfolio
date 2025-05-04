@@ -484,7 +484,7 @@ footer ul li a:hover {
   /* Header */
   header {
     gap: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem;
     flex-wrap: wrap;
     justify-content: space-between;
   }
