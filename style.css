@@ -101,7 +101,7 @@ header {
 
 #menu-icon {
   display: none;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #e0e0e0;
   transition: transform 0.3s ease;
   cursor: pointer;
