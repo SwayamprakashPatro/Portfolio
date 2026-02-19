@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Scikit-learn">
+  <!-- Custom mark (no text): connected nodes + curve -->
+  <circle cx="18" cy="28" r="6" fill="#000"/>
+  <circle cx="44" cy="22" r="6" fill="#000"/>
+  <circle cx="46" cy="44" r="6" fill="#000"/>
+  <path d="M22 30C28 18 36 16 40 20" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M22 30C30 40 36 46 40 44" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+  <path d="M44 28c0 6 0 8 0 10" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round"/>
+</svg>

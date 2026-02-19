@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swayamprakash Patro • Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="assets/icons/Global.png" />
+    <meta name="description" content="Portfolio of Swayamprakash Patro" />
+    <meta property="og:title" content="Swayamprakash Patro • Portfolio" />
+    <meta
+      property="og:description"
+      content="Projects, Experience, Skills, and Certifications."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#about" class="logo"><span>Swayamprakash Patro</span></a>
+      <ul class="nav-links" id="primary-navigation">
+        <li>
+          <a
+            class="nav-icon"
+            href="https://github.com/SwayamprakashPatro"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+            data-tooltip="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+            <span class="sr-only">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-icon"
+            href="https://in.linkedin.com/in/swayamprakashpatro"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            data-tooltip="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="Pic.jpg" alt="Swayamprakash Patro" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>Swayamprakash Patro</h1>
+            <span id="typing-text"></span>
+            <!-- This is the element we'll animate -->
+          </div>
+
+          <div class="btn-group" id="btn-group">
+            <button class="btn" id="download-cv">Download Resume</button>
+            <a
+              class="btn"
+              id="contact-btn"
+              href="https://linktr.ee/swayamprakashpatro"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <span
+        class="spotlight-anchor"
+        id="spotlight-experience"
+        aria-hidden="true"
+      ></span>
+      <span
+        class="spotlight-anchor"
+        id="spotlight-skills"
+        aria-hidden="true"
+      ></span>
+      <span
+        class="spotlight-anchor"
+        id="spotlight-projects"
+        aria-hidden="true"
+      ></span>
+      <span
+        class="spotlight-anchor"
+        id="spotlight-certifications"
+        aria-hidden="true"
+      ></span>
+
+      <h2 class="section-title">Why me?</h2>
+
+      <div class="spotlight-shell">
+        <div
+          class="spotlight-rail"
+          role="tablist"
+          aria-label="Spotlight sections"
+        >
+          <button
+            class="spotlight-tab is-active"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-label="Experience"
+            data-tab="experience"
+            data-tooltip="Experience"
+          >
+            <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+            <span class="spotlight-tab-text">Experience</span>
+          </button>
+          <button
+            class="spotlight-tab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-label="Skills"
+            data-tab="skills"
+            data-tooltip="Skills"
+          >
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            <span class="spotlight-tab-text">Skills</span>
+          </button>
+          <button
+            class="spotlight-tab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-label="Projects"
+            data-tab="projects"
+            data-tooltip="Projects"
+          >
+            <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+            <span class="spotlight-tab-text">Projects</span>
+          </button>
+          <button
+            class="spotlight-tab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-label="Certifications"
+            data-tab="certifications"
+            data-tooltip="Certifications"
+          >
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            <span class="spotlight-tab-text">Certifications</span>
+          </button>
+        </div>
+
+        <div class="spotlight-main">
+          <div class="tab-panels">
+            <div
+              class="tab-panel is-active"
+              role="tabpanel"
+              data-panel="experience"
+            >
+              <div class="spotlight-scroll" aria-label="Experience list">
+                <div class="xp-list" id="experience-list">
+                  <p class="panel-muted">
+                    Enable JavaScript to view experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" data-panel="skills" hidden>
+              <div class="skills-groups">
+                <div class="skills-group">
+                  <h3>Programming Languages</h3>
+                  <div
+                    class="logo-grid"
+                    aria-label="Programming languages and web stack skills"
+                  >
+                    <span class="skill-logo" aria-label="HTML5" tabindex="0">
+                      <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="CSS3" tabindex="0">
+                      <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                    </span>
+                    <span
+                      class="skill-logo"
+                      aria-label="JavaScript"
+                      tabindex="0"
+                    >
+                      <i class="fa-brands fa-js" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="React" tabindex="0">
+                      <i class="fa-brands fa-react" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Node.js" tabindex="0">
+                      <i class="fa-brands fa-node-js" aria-hidden="true"></i>
+                    </span>
+                    <span
+                      class="skill-logo"
+                      aria-label="SQL / MySQL"
+                      tabindex="0"
+                    >
+                      <i class="fa-solid fa-database" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Java" tabindex="0">
+                      <i class="fa-brands fa-java" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Python" tabindex="0">
+                      <i class="fa-brands fa-python" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="skills-group">
+                  <h3>Data Science &amp; Machine Learning</h3>
+                  <div
+                    class="logo-grid"
+                    aria-label="Data science and machine learning skills"
+                  >
+                    <span class="skill-logo" aria-label="SQL" tabindex="0">
+                      <i class="fa-solid fa-database" aria-hidden="true"></i>
+                    </span>
+                    <span
+                      class="skill-logo mask-icon"
+                      style="--icon: url(&quot;assets/icons/numpy.svg&quot;)"
+                      aria-label="NumPy"
+                      tabindex="0"
+                    ></span>
+                    <span
+                      class="skill-logo mask-icon"
+                      style="--icon: url(&quot;assets/icons/pandas.svg&quot;)"
+                      aria-label="Pandas"
+                      tabindex="0"
+                    ></span>
+                    <span
+                      class="skill-logo mask-icon"
+                      style="--icon: url(&quot;assets/icons/pytorch.svg&quot;)"
+                      aria-label="PyTorch"
+                      tabindex="0"
+                    ></span>
+                    <span
+                      class="skill-logo mask-icon"
+                      style="
+                        --icon: url(&quot;assets/icons/sklearn-mark.svg&quot;);
+                      "
+                      aria-label="Scikit-learn"
+                      tabindex="0"
+                    ></span>
+                    <span
+                      class="skill-logo"
+                      aria-label="Data Visualization"
+                      tabindex="0"
+                    >
+                      <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                    </span>
+                    <span
+                      class="skill-logo"
+                      aria-label="Statistics"
+                      tabindex="0"
+                    >
+                      <i
+                        class="fa-solid fa-square-root-variable"
+                        aria-hidden="true"
+                      ></i>
+                    </span>
+                    <span
+                      class="skill-logo"
+                      aria-label="Data Engineering / ETL"
+                      tabindex="0"
+                    >
+                      <i class="fa-solid fa-gears" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="skills-group">
+                  <h3>Tools &amp; Workflow</h3>
+                  <div class="logo-grid" aria-label="Tools and workflow">
+                    <span class="skill-logo" aria-label="Docker" tabindex="0">
+                      <i class="fa-brands fa-docker" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Git" tabindex="0">
+                      <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Linux" tabindex="0">
+                      <i class="fa-brands fa-linux" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="GitHub" tabindex="0">
+                      <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Jira" tabindex="0">
+                      <i class="fa-brands fa-jira" aria-hidden="true"></i>
+                    </span>
+                    <span class="skill-logo" aria-label="Figma" tabindex="0">
+                      <i class="fa-brands fa-figma" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-panel" role="tabpanel" data-panel="projects" hidden>
+              <div class="spotlight-scroll" aria-label="Projects list">
+                <div class="proj-list">
+                  <article class="proj-card">
+                    <div class="proj-head">
+                      <img
+                        class="proj-thumb"
+                        src="assets/projects/dbms-1.svg"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                      <div class="proj-meta">
+                        <h3>Database Management System</h3>
+                      </div>
+                      <a
+                        href="https://github.com/SwayamprakashPatro/Cricket-Stats-"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-sm proj-github"
+                        aria-label="GitHub"
+                      >
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                      </a>
+                    </div>
+                    <p class="proj-work">
+                      Developed in Java, efficiently manages and displays
+                      cricket player statistics such as runs and wickets.
+                    </p>
+                    <div class="proj-footer" aria-label="Tech stack">
+                      <div class="stack-icons" aria-label="Java, SQL">
+                        <i
+                          class="fa-brands fa-java"
+                          data-label="Java"
+                          aria-label="Java"
+                          tabindex="0"
+                        ></i>
+                        <i
+                          class="fa-solid fa-database"
+                          data-label="SQL / MySQL"
+                          aria-label="SQL / MySQL"
+                          tabindex="0"
+                        ></i>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="proj-card">
+                    <div class="proj-head">
+                      <img
+                        class="proj-thumb"
+                        src="assets/projects/chat-1.svg"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                      <div class="proj-meta">
+                        <h3>Chatting Application</h3>
+                      </div>
+                      <a
+                        href="https://github.com/SwayamprakashPatro/Chatting-Application"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-sm proj-github"
+                        aria-label="GitHub"
+                      >
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                      </a>
+                    </div>
+                    <p class="proj-work">
+                      Built with Java Swing and socket programming for real-time
+                      text communication between two users over a local network.
+                    </p>
+                    <div class="proj-footer" aria-label="Tech stack">
+                      <div class="stack-icons" aria-label="Java">
+                        <i
+                          class="fa-brands fa-java"
+                          data-label="Java"
+                          aria-label="Java"
+                          tabindex="0"
+                        ></i>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="proj-card">
+                    <div class="proj-head">
+                      <img
+                        class="proj-thumb"
+                        src="assets/projects/advisor-1.svg"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                      <div class="proj-meta">
+                        <h3>Advisor Application</h3>
+                      </div>
+                      <a
+                        href="https://github.com/3pkm/Better-AdvisorOP"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-sm proj-github"
+                        aria-label="GitHub"
+                      >
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                      </a>
+                    </div>
+                    <p class="proj-work">
+                      End-to-end AI chat app with persistent chats, reusable UI
+                      components, and a secure, scalable architecture.
+                    </p>
+                    <div class="proj-footer" aria-label="Tech stack">
+                      <div class="stack-icons" aria-label="React, TypeScript">
+                        <i
+                          class="fa-brands fa-react"
+                          data-label="React"
+                          aria-label="React"
+                          tabindex="0"
+                        ></i>
+                        <i
+                          class="fa-brands fa-js"
+                          data-label="TypeScript / JavaScript"
+                          aria-label="TypeScript / JavaScript"
+                          tabindex="0"
+                        ></i>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="proj-card">
+                    <div class="proj-head">
+                      <img
+                        class="proj-thumb"
+                        src="assets/projects/threat-1.svg"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                      <div class="proj-meta">
+                        <h3>Real Time Object Detection</h3>
+                      </div>
+                      <a
+                        href="https://github.com/aryan-dani/Threat_Detection_System"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-sm proj-github"
+                        aria-label="GitHub"
+                      >
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        <span class="sr-only">GitHub</span>
+                      </a>
+                    </div>
+                    <p class="proj-work">
+                      Integrated YOLOv11 and EfficientNetV2 for low-latency
+                      multi-modal threat detection in CCTV and X-ray scans.
+                    </p>
+                    <div class="proj-footer" aria-label="Tech stack">
+                      <div class="stack-icons" aria-label="Python">
+                        <i
+                          class="fa-brands fa-python"
+                          data-label="Python"
+                          aria-label="Python"
+                          tabindex="0"
+                        ></i>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="tab-panel"
+              role="tabpanel"
+              data-panel="certifications"
+              hidden
+            >
+              <div class="spotlight-scroll" aria-label="Certifications list">
+                <div class="cert-list">
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">Java Foundations</div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Core understanding of Java concepts including syntax, OOP
+                      principles and building applications with clean,
+                      structured code.
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">JavaScript Foundations</div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Fundamentals of JavaScript covering logic, DOM
+                      manipulation and scripting to build interactive and
+                      dynamic web experiences.
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">
+                        Data Structure and Algorithm with Java
+                      </div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Solid understanding of core data structures and algorithms
+                      in Java, focusing on problem solving, efficient coding,
+                      and building strong fundamentals for scalable software
+                      development.
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">Full Stack Developer</div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Hands-on skills in building end-to-end web applications,
+                      covering frontend, backend, databases, APIs and deployment
+                      to create complete, production-ready solutions.
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">
+                        Career Essentials with GitHub
+                      </div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Strong foundation in version control, collaboration
+                      workflows, pull requests and managing code repositories
+                      using GitHub in professional environments.
+                    </div>
+                  </article>
+
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">Docker Foundations</div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Knowledge of containerization concepts, creating and
+                      managing Docker containers and simplifying application
+                      deployment across environments.
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">Microservices Foundations</div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Introduction to designing scalable systems using
+                      microservices architecture, focusing on service
+                      communication, modularity and resilience.
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">
+                        Design Experiences with Figma
+                      </div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Ability to design intuitive user interfaces, create
+                      prototypes, and collaborate effectively using Figma to
+                      craft user-focused digital
+                    </div>
+                  </article>
+                  <article class="cert-item">
+                    <div class="cert-top">
+                      <div class="cert-title">Agile Project Management</div>
+                      <div class="cert-meta">Issuer • 2025</div>
+                    </div>
+                    <div class="cert-desc">
+                      Practical knowledge of Agile principles, teamwork, sprint
+                      planning, and iterative delivery to manage projects
+                      efficiently and adapt quickly to changing requirements.
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <!-- ADDED: Formspree integration -->
+      <form
+        action="https://formspree.io/f/mzzrekyq"
+        method="POST"
+        id="contact-form"
+      >
+        <div class="input-box">
+          <h2 class="section-title">Contact Me</h2>
+          <div class="input">
+            <input
+              type="email"
+              name="email"
+              placeholder="yourmail@gmail.com"
+              id="email-input"
+              required
+            />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <!-- ADDED: Hidden field for spam protection -->
+          <input type="text" name="_gotcha" style="display: none" />
+          <button type="submit" class="btn" id="submit-btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p class="copyright">@2026 Swayamprakash Patro. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

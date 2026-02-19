@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TypeScript">
+  <!-- Mask icon: solid badge with centered TS cut out (monochrome glyph) -->
+  <path
+    fill="#000"
+    fill-rule="evenodd"
+    d="
+      M20 12h24a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8H20a8 8 0 0 1-8-8V20a8 8 0 0 1 8-8z
+
+      M18 19h16v5H18z
+      M24 24h5v26h-5z
+
+      M36 19h16v5H36z
+      M36 24h5v8h-5z
+      M36 32h16v5H36z
+      M47 37h5v8h-5z
+      M36 45h16v5H36z
+    "
+  />
+</svg>
