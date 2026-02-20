@@ -1830,6 +1830,14 @@ footer ul li a:hover {
     --container: 100%;
   }
 
+  section[id] {
+    scroll-margin-top: 8.5rem;
+  }
+
+  .spotlight-anchor {
+    scroll-margin-top: 8.5rem;
+  }
+
   /* Header */
   header {
     left: 0.75rem;
@@ -1878,7 +1886,8 @@ footer ul li a:hover {
 
   /* Add extra breathing room below the fixed header on mobile */
   .about {
-    padding-top: 6.5rem;
+    justify-content: flex-start;
+    padding-top: 7.75rem;
   }
 
   .section-title {
