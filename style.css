@@ -1880,6 +1880,11 @@ footer ul li a:hover {
     padding: 4rem 8%;
   }
 
+  /* Add extra breathing room below the fixed header on mobile */
+  .about {
+    padding-top: 6.5rem;
+  }
+
   .section-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
